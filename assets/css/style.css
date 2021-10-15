@@ -8,7 +8,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #246c74;
 }
-
+ img {
+     border: solid, aqua, 3px;
+ }
 /* header style start */
 header {
     padding: 20px 35px;
@@ -74,6 +76,60 @@ header nav ul li a {
     font-size: 55px;
     color: #fce138;
 }
+/* end hero style*/
+
+/* h2 style */
+h2 {
+    padding: 3%;
+    border-right: solid aqua;
+    float: left;
+}
+
+/* start about section style */
+.about-section {
+    display: flex;
+}
+
+/* start work section style */
+.work-section {
+    display: flex;
+}
+/* end work section style */
+
+/* start contact section style */
+
+.contact-section {
+padding: 20px 35px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+font-family: fantasy;
+color: hsl(199, 72%, 60%);
+font-size: 1.55vw;
+text-align: center;
+}
+
+.contact-section a {
+font-family: fantasy;
+text-decoration: none;
+color: hsl(199, 72%, 60%);
+}
+
+
+.contact-section ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+.contact-section ul li a {
+margin: 0 30px;
+font-weight: lighter;
+font-size: 1.55vw;
+}
+/* end contact section style */
 
 /* footer style start */
 footer {    
