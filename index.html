@@ -19,7 +19,7 @@
                 <!--list item elements-->
                 <li>
                     <!--anchor element-->
-                    <a href="#about-me">About Me</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
                     <a href="#work">Work</a>
@@ -39,19 +39,20 @@
     </section>
 
     <!--about me section-->
-    <section id="about-me" class="about-section">
-        <h2>About Me</h2>
+    <section id="about" class="about-section">
+        <h2>About</h2>
       
         <!--picture of me-->
-        <div>
-            <img src="./assets/images/profile-pic.png" alt="Jillian's face" />
-        </div>
-        
-        <!--about me-->
-        <div>
-            <p>
-                I'm a new coder but loving it! I love to practice yoga, travel, and be artistic. 
-            </p>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="./assets/images/profile-pic.png" alt="Jillian's face" />
+            </div>
+            <!--about me-->
+            <div class="about-text">
+                <p>
+                    I'm a new coder but loving it! I love to practice yoga, travel, and be artistic. 
+                </p>
+            </div>
         </div>
     </section>
 
@@ -60,26 +61,44 @@
         <h2>Work</h2>
         
         <!--samples of work-->
-        <div>
-            <img src="./assets/images/hero-bg-2.jpg" alt="woman lacing shoe before run" />
-            <h3>Run Buddy</h3>
+        <div class="work-content">
+            <div class="work-sample">
+                <div class="work-img">
+                    <img src="./assets/images/run-buddy.png" alt="woman lacing shoe before run" />
+                </div>
+                <div class="work-text">
+                    <h3>Run Buddy</h3>
+                    <p>HTML & CSS</p>
+                </div>
+            </div>
+            <div class="work-sample">
+                <div class="work-img">
+                    <img src="./assets/images/antelope-canyon.png" alt="abstract colors from Antelope Canyon" />
+                </div>
+                <div class="work-text">
+                    <h3>My Profile</h3>
+                    <p>HTML & CSS</p>
+                </div>
+            </div>
+            <div class="work-sample">
+                <div class="work-img">
+                    <img src="./assets/images/robot-gladiator.png" alt="toy robots boxing" />
+                </div>
+                <div class="work-text">
+                    <h3>Robot Gladiators</h3>
+                    <p>HTML & JavaScript</p>
+                </div>
+            </div>
+            <div class="work-sample">
+                <div class="work-img">
+                    <img src="./assets/images/password-gen.png" alt="colorful key shaped computer code" />
+                </div>
+                <div class="work-text">
+                    <h3>Password Generator</h3>
+                    <p>JavaScript</p>
+                </div>
+            </div>        
         </div>
-
-        <div>
-            <img src="./assets/images/antelope-canyon.png" alt="abstract colors from Antelope Canyon" />
-            <h3>My Profile</h3>
-        </div>
-
-        <div>
-            <img src="./assets/images/robot-gladiator.jpeg" alt="toy robots boxing" />
-            <h3>Robot Gladiators</h3>
-        </div>
-
-        <div>
-            <img src="./assets/images/password-gen.jpeg" alt="colorful key shaped computer code" />
-            <h3>Password Generator</h3>
-        </div>        
-        
     </section>
 
     <!--contact section-->
