@@ -181,7 +181,7 @@ h2 {
     margin: 50px auto;
     padding: 20px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     color: hsl(199, 72%, 60%);
     font-size: 1.55vw;
@@ -200,6 +200,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    text-align: center;
 }
 
 .contact-section ul li a {
